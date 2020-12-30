@@ -541,7 +541,7 @@ input::-webkit-input-placeholder {
     justify-content: flex-start;
     width: 100%;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 150px;
 }
 
 .about .container .about-intro {
@@ -1828,7 +1828,7 @@ input::-webkit-input-placeholder {
     .about .container .about-items .about-line {
         position: absolute;
         top: 0;
-        left: 0;
+        left: 112;
         width: 3px;
         height: 1142px;
     }
