@@ -3070,6 +3070,10 @@ input::-webkit-input-placeholder {
         width: 820px;
     }
 
+    header .container .main-content img {
+        width: 210px;
+    }
+
     header .exposure {
         display: flex;
         flex-direction: column;
@@ -3098,6 +3102,10 @@ input::-webkit-input-placeholder {
         line-height: 72px;
         text-align: left;
         margin-left: 0;
+    }
+
+    .intro .container .content .video-container .video-subheader {
+        font-size: 41px;
     }
 
     .intro .container .content .video-container p {
@@ -3216,35 +3224,43 @@ input::-webkit-input-placeholder {
     }
 
     .about .container .about-items .about-line {
-        height: 2490px;
+        width: 5px;
+        height: 2639px;
         left: 35px;
         margin: 0;
     }
 
     .about .container .about-items .inner-items {
-        margin-left: -76px;
+        margin-left: -110px;
     }
 
     .about .container .about-items .inner-items .item {
-        width: 833px;
+        width: auto;
+        margin-bottom: 65px;
+    }
+
+    .about .container .about-items .item .step-number {
+        width: 350px;
+        margin-right: -70px;
+    }
+
+    .about .container .about-items .item .step-number h3 {
+        font-size: 45px;
     }
 
     .about .container .about-items .item .inner-item {
-        width: 722px;
-        border-radius: 50px;
+        width: 600px;
+        border-radius: 85px;
+    }
+
+    .about .container .about-items .item .inner-item .item-header {
+        margin-top: 50px;
+        font-size: 45px;
     }
 
     .about .container .about-items .item img {
         width: 150px;
         height: auto;
-    }
-    
-    .about .container .about-items .item .inner-item h2 {
-        font-size: 52px;
-    }
-
-    .about .container .about-items .item .inner-item .item-header {
-        font-size: 45px;
     }
 
     .about .container .about-items .item .inner-item .item-content {
@@ -3319,8 +3335,12 @@ input::-webkit-input-placeholder {
         line-height: 150%;
     }
 
+    .stock-leaders .container .stock-leaders-bottom .conclusion {
+        max-width: 800px;
+    }
+
     .stock-leaders .container .stock-leaders-bottom .lets-go {
-        max-width: initial;
+        max-width: 800px;
     }
 
     .stock-leaders .container .stock-leaders-bottom .lets-go h3 {
@@ -3500,7 +3520,7 @@ input::-webkit-input-placeholder {
     }
 
     .intro .container .content .video-container {
-        width: 800px;
+        width: 850px;
         height: auto;
     }
 
@@ -3514,6 +3534,10 @@ input::-webkit-input-placeholder {
         line-height: 100px;
     }
 
+    .intro .container .content .video-container .video-subheader {
+        font-size: 60px;
+    }
+
     .intro .container .content .video-container p {
         font-size: 49px;
         line-height: 72px;
@@ -3524,7 +3548,7 @@ input::-webkit-input-placeholder {
     }
 
     .intro .container .content .form-container {
-        width: 800px;
+        width: 850px;
         height: auto;
     }
 
@@ -3595,16 +3619,18 @@ input::-webkit-input-placeholder {
         width: 100%;
     }
 
+    .about .container .about-intro .header-container h3 {
+        font-size: 62px;
+    }
+
     .about .container .about-intro .content {
         width: 830px;
     }
 
-    .about .container .about-intro .content .scrollable-text {
-        height: 1103px;
-    }
-
-    .about .container .about-intro .content .scrollable-text .inner-text p {
-        font-size: 49px;
+    .about .container .about-intro .content .paragraphs p {
+        width: 100%;
+        max-width: initial;
+        font-size: 48px;
     }
 
     .about .container .about-intro .content .about-conclusion {
@@ -3613,11 +3639,11 @@ input::-webkit-input-placeholder {
     }
 
     .about .container .about-items .about-line {
-        height: 6484px;
+        height: 5986px;
     }
 
     .about .container .about-items .inner-items {
-        margin-left: -34px;
+        margin-left: -103px;
     }
 
     .about .container .about-intro .header-container .text {
@@ -3626,21 +3652,20 @@ input::-webkit-input-placeholder {
     }
 
     .about .container .about-items .inner-items .item {
-        width: 863px;
+        width: auto;
     }
 
-    .about .container .about-items .item .circle {
-        width: 50px;
-        height: 50px;
+    .about .container .about-items .item .step-number {
+        width: 410px;
+        margin-right: -115px;
     }
 
     .about .container .about-items .item .inner-item {
-        width: 745px;
+        width: 690px;
     }
 
-    .about .container .about-items .item .inner-item h2 {
-        font-size: 100px;
-        line-height: 127px;
+    .about .container .about-items .item .step-number h3 {
+        font-size: 65px;
     }
 
     .about .container .about-items .item .inner-item .item-header {
@@ -3658,6 +3683,10 @@ input::-webkit-input-placeholder {
         height: 150px;
         border-radius: 80px;
         font-size: 50px;
+    }
+
+    .stock-leaders .container .stock-leaders-top .stock-leaders-top-container {
+        width: 850px;
     }
 
     .stock-leaders .container .stock-leaders-top .stock-leaders-header {
@@ -3680,15 +3709,7 @@ input::-webkit-input-placeholder {
     }
 
     .stock-leaders .container .stock-leaders-top .stock-leaders-items .item .image img {
-        width: 500px;
-    }
-
-    .stock-leaders .container .stock-leaders-top .stock-leaders-items .item:nth-child(2) .image img {
         width: 300px;
-    }
-
-    .stock-leaders .container .stock-leaders-top .stock-leaders-items .item:nth-child(4) .image img {
-        width: 250px;
     }
 
     .stock-leaders .container .stock-leaders-top .stock-leaders-items .item .header {
@@ -3697,6 +3718,16 @@ input::-webkit-input-placeholder {
 
     .stock-leaders .container .stock-leaders-top .stock-leaders-items .item .details p {
         font-size: 45px;
+        line-height: 150%;
+    }
+
+    .stock-leaders .container .stock-leaders-bottom .conclusion {
+        max-width: 850px;
+    }
+
+    .stock-leaders .container .stock-leaders-bottom .lets-go {
+        max-width: 850px;
+        align-items: flex-start;
     }
 
     .stock-leaders .container .stock-leaders-bottom .conclusion .blue-color {
